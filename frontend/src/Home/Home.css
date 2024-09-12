@@ -1,0 +1,34 @@
+.card-img-top{
+    width: 15rem;
+    /* margin-left: 10px; */
+    margin-left: 2%;
+    height: 300px;
+    margin-top: -0%;
+}
+#sri{
+    margin-left: -70%;
+}
+.img{
+    /* margin-left:5%; */
+    /* margin-top: 5%; */
+    border-radius: 5%;
+    /* height: 100px; */
+}
+
+video{
+    width: 15rem;
+
+    border-radius:2%;
+}
+.col-md-2{
+margin-left: 2%;
+width: 15rem;
+height: 300px;
+
+}
+#full{
+    height: 100%;
+    width: 100%;
+    background:cover;
+    overflow-clip-margin:none;
+}

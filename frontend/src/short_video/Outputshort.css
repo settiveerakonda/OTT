@@ -1,0 +1,94 @@
+
+
+.container-fluid {
+  padding: 0;
+}
+
+.row.bg-black {
+  margin: 0;
+}
+
+.video-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.video-size {
+  width: 100%;
+  height: 600px; /* Fixed height */
+  object-fit: cover; /* This will ensure the video covers the area */
+  cursor: pointer;
+}
+
+.video-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  /* background: rgba(0, 0, 0, 0.5); Optional: for better readability */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.custom-prev {
+  left: 50px;
+ 
+}
+
+.custom-next {
+  right: 70px;
+}
+.slick-next {
+    right: 5px;
+}
+.slick-prev {
+    left: -10px;
+    font-size: 30px;
+}
+.video-info {
+  position: absolute;
+  top: 60px; 
+  left: 10px;
+  color: white;
+  
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.video-title {
+  margin: 0;
+  font-size: 60px; 
+  
+  font-weight: bold; 
+  font-style: italic; 
+ 
+  margin-top: 310px;
+  margin-left: 110px;
+}
+.Outputshorts-wrapper {
+  position: relative;
+}
+
+.Outputshorts-video {
+  display: block;
+  width: 100%;
+  height: 750px;
+  margin-top: -945px;
+}

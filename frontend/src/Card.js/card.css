@@ -1,0 +1,348 @@
+.Cardcontainer{
+    max-width: 230px;
+    width:230px;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    background-color: gray;
+}
+img {
+    margin-top: 0%; 
+    margin-left: 0%;
+     border-radius: 0;
+}
+video{
+    margin-top: 0%; 
+    margin-left: 0%;
+     border-radius: 0;
+}
+h3{
+    font-size: 20px;
+    color: beige;
+}
+.hover{
+    z-index:99;
+    height: max-content;
+
+}
+.Nani{
+    float: left;
+    margin-left: 5%;
+}
+.jyo{
+    font-size: 20px;
+    margin-left: 60%;
+    position:absolute ;
+    margin-top: 10px;
+}
+.products-list {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures the items won't wrap to the next line */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.product-item {
+    margin-right: 20px; /* Add some spacing between items */
+    flex: 0 0 auto; /* Prevent items from growing or shrinking */
+}
+
+/* Style your videos and product details as needed */
+.product-item video {
+    max-width: 200px; /* Limit the width of each video */
+}
+
+.product-details {
+    /* Style your product details */
+}
+.fullscreen-video {
+    width: 100%;
+    height: 100vh; /* Set height to viewport height */
+    object-fit: cover; /* Cover the entire area of the video */
+  }
+  .container-fluid {
+    padding: 0;
+}
+
+.row.bg-black {
+    background-color: rgb(161, 156, 156);
+}
+
+.text-white {
+    color: white;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.heading h1 {
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.heading a {
+    color: red;
+}
+
+.Moviebox {
+    width: 200px;  /* Adjusted width for five videos per row */
+    height: 150px; /* Adjusted height for videos */
+    position: relative;
+    transition: 0.5s;
+    border-left: 5px solid transparent;
+    margin: 15px;
+}
+
+/* .Moviebox:hover {
+    cursor: pointer;
+    border-left: 5px solid red;
+    transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(31.25em);
+    box-shadow: 0 0 0.73em rgba(0, 0, 0, 0.9);
+} */
+
+.Moviebox::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 88;
+    /* background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(20, 20, 20, 0.6) 100%); */
+}
+
+.Moviebox video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+
+.Moviebox .text {
+    padding: 10px; /* Adjusted padding to fit smaller size */
+    position: relative;
+    z-index: 99;
+}
+
+.Moviebox h3 {
+    font-weight: 500;
+    margin-bottom: 5px; /* Adjusted margin for smaller size */
+    font-size: 14px; /* Adjusted font size for smaller size */
+}
+
+.primary-btn {
+    margin-top: 5px; /* Adjusted margin for smaller size */
+    padding: 8px 12px; /* Adjusted padding for smaller size */
+    background-color: red;
+    color: rgb(20, 19, 19);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.primary-btn i {
+    margin-right: 0.5rem;
+}
+
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(236, 235, 243, 0.959);
+    color:black;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 20px;  /* Increased padding for larger size */
+    border-radius: 50%;
+    font-size: 24px;  /* Increased font size for larger icons */
+    width: 50px;     /* Increased width */
+    height: 50px;    /* Increased height */
+}
+
+.next-arrow {
+    right: 10px;
+}
+
+.prev-arrow {
+    left: 10px;
+}
+.fullscreen-btn:hover {
+    background-color: rgba(220, 235, 11, 0.7);
+  }
+  .custom-arrow {
+    background-color: rgb(244, 245, 240);
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .next-arrow {
+    right: 10px;
+    color: black;
+  }
+  
+  .prev-arrow {
+    left: 10px;
+    color: black;
+  }
+  
+  .custom-arrow i {
+    color: rgb(15, 14, 15);
+    font-size: 20px;
+  }
+  .custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-section {
+    padding: 20px;
+  }
+  
+  .cs__content-container {
+    position: relative;
+  }
+  
+  .cs__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .h1-heading {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .cs__see-more {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .cs__sm-text {
+    margin-right: 10px;
+  }
+  
+  .cs__sm-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .d__horizontal-carousel {
+    position: relative;
+  }
+  
+  .dhc__slide {
+    padding: 10px;
+  }
+  
+  .card-wrapper {
+    position: relative;
+  }
+  
+  .portrait-container {
+    position: relative;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .card-content-wrap {
+    position: relative;
+  }
+  
+  .card-image-content {
+    position: relative;
+  }
+  
+  .image-card {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .ic__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
+  }
+  
+  .ic__loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  .original-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .card-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0%; 
+    margin-left: 0%;
+     border-radius: 0;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .card-wrapper {
+    border: 2px solid #ccc; /* Example border style */
+    margin-left:2px; /* Example margin */
+     
+  }
+  
+  
+  
+  
+  
+  
+  
+ 
